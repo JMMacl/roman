@@ -1,6 +1,6 @@
 #Roman Numerals Calculator 
 
-A Roman Numerals calculator React SPA with .NET 6 API backend built into Docker Container at https://hub.docker.com/repository/docker/johnmmac/roman
+A Roman Numerals calculator React SPA with .NET 6 API backend built into a Docker Container at https://hub.docker.com/repository/docker/johnmmac/roman
 
 # NOTE THIS IS A WORK-IN-PROGRESS REPOSITIORY
 The code is not complete, primarily lacking the development of the SPA to interact with the backend APIs
