@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 4vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ccccff;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(60, 60, 60);
+}
+
+.Calculator-App-UI {
+  background-color: #fdfdfe;
+  min-height: 10vh;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(217, 15, 160);
+}
+
+input{
+  font-size: calc(10px + 2vmin);
+  color: rgb(217, 15, 160);
+}
+
+.Calculator-App-UI.span{
+ min-width: 170px;
+}
+
+.Equation-Row {
+  margin: auto;
+  display: inline-block;
+}
+
+.Equation-Row > * {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.Input-Component {  
+  padding: 2px;
+}
+
+.Result-Component {  
+  padding: 2px;
+}
+
+.App-footer {
+  max-height: 50px;
+  display: fixed;
+  left:0px;
+  bottom:45px;
+  right:0px;
+  font-size: calc(10px + 1vmin);
+}
+
+.App-footer > p {
+  background-color: #252526;
+  color: rgb(242, 223, 223);
+  padding: 10px;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
